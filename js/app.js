@@ -1,4 +1,5 @@
 $("body").on("keypress", function (e) {
+    //select touch for soung
     switch (e.key) {
         case "a" :
             let clap = $('#clap')[0].play();
